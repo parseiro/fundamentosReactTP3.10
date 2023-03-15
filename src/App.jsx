@@ -12,6 +12,7 @@ export default function App() {
   return (
     <EstrelasContext.Provider value={{estrelas, setEstrelas, maximo}}>
       <main className="flex flex-col items-center justify-center gap-10">
+        <p>Please click the stars</p>
         {/*<form action="#"
               className="w-[100px]"
               onSubmit={e => {
